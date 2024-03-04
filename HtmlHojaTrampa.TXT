@@ -1,0 +1,144 @@
+<!--Este documento ser un cheatsheet sobre como utilizar HTML, 
+presentando los valores mas comunenes utilizados en HTML
+Dale follow a la cuenta para mostrar tu apoyo y brindarte mas contenido-->
+
+
+<!--ESQUEMAS DEL DOCUMENTO-->
+
+1. `<!DOCTYPE html>`: Declara la versión de HTML que está utilizando el documento, en este caso, HTML5.
+2. `<html></html>`: Envuelve todo el contenido del documento HTML y especifica que es un documento HTML.
+3. `<head></head>`: Contiene metadatos sobre el documento, como el título de la página, enlaces a hojas 
+                    de estilo CSS, scripts JavaScript, etiquetas meta para SEO y otra información relevante para el navegador 
+                    y los motores de búsqueda.
+4. `<body></body>`: Contiene todo el contenido visible en el navegador web, como texto, imágenes, enlaces, 
+                    formularios, etc. Es el área principal donde los usuarios interactúan con el contenido 
+                    de la página.     
+
+
+
+
+
+<!--LISTAS-->
+
+1. `<ol>`: Crea una lista ordenada (numerada) donde los elementos se presentan en secuencia.
+2. `<ul>`: Crea una lista no ordenada (sin numerar) donde los elementos se presentan sin un orden específico.
+3. `<li>`: Define un elemento de lista dentro de una lista ordenada (`<ol>`), una lista no ordenada (`<ul>`) o una lista de definición (`<dl>`).
+4. `<dl>`: Crea una lista de definición que consiste en pares de términos (`<dt>`) y definiciones (`<dd>`).
+5. `<dt>`: Define un término o un encabezado dentro de una lista de definición (`<dl>`).
+6. `<dd>`: Proporciona la definición o descripción asociada a un término dentro de una lista de definición (`<dl>`).         
+
+
+
+
+
+<!--FORMULARIO-->
+
+1. `<form>`: Define un formulario que recopila datos del usuario.
+2. `<fieldset>`: Agrupa elementos del formulario con un borde y opcionalmente una leyenda.
+3. `<legend>`: Proporciona una leyenda para el `<fieldset>`.
+4. `<label>`: Etiqueta descriptiva para un elemento de formulario.
+5. `<input>`: Crea un campo de entrada para que los usuarios ingresen datos.
+6. `<select>`: Crea un menú desplegable donde los usuarios pueden seleccionar una opción.
+7. `<optgroup>`: Agrupa opciones relacionadas dentro de un menú desplegable.
+8. `<option>`: Define una opción dentro de un `<select>` o `<datalist>`.
+9. `<textarea>`: Crea un área de texto de múltiples líneas para que los usuarios ingresen texto.
+10. `<button>`: Crea un botón que puede ser utilizado para enviar un formulario o realizar una acción 
+                específica dentro de una página web.
+
+
+
+
+
+<!--ESTRUCTURA DEL DOCUMENTO-->
+
+1. `<h[1-6]>`: Define encabezados de nivel 1 al 6 para estructurar y jerarquizar el contenido del documento.
+2. `<div>`: Crea un contenedor genérico que se utiliza para agrupar elementos y aplicar estilos CSS.
+3. `<span>`: Se utiliza para aplicar estilos o manipular contenido en línea dentro de un párrafo u otros elementos.
+4. `<p>`: Define un párrafo de texto para organizar y estructurar el contenido del documento.
+5. `<br/>`: Crea un salto de línea dentro de un párrafo o un contenedor de texto.
+6. `<hr/>`: Inserta una línea horizontal para separar secciones de contenido en el documento.
+
+
+
+
+
+<!--TABLAS-->
+
+1. `<table>`: Crea una tabla para organizar datos en filas y columnas.
+2. `<caption>`: Proporciona un título o una descripción para la tabla.
+3. `<thead>`: Define el encabezado de la tabla que contiene filas de encabezados de columna.
+4. `<tbody>`: Contiene el cuerpo principal de la tabla que incluye las filas de datos.
+5. `<tfoot>`: Define el pie de la tabla que contiene resúmenes o totales, ubicado debajo del cuerpo de la tabla.
+6. `<colgroup>`: Agrupa columnas de una tabla para aplicar estilos o configuraciones específicas.
+7. `<col />`: Define una columna individual dentro de un grupo de columnas.
+8. `<tr>`: Define una fila dentro de la tabla.
+9. `<th>`: Define un encabezado de columna o fila dentro de la tabla (generalmente en el encabezado).
+10. `<td>`: Define una celda de datos dentro de una fila de la tabla.
+
+
+
+
+
+<!--LINKS-->
+
+1. `<a href="">`: Define un enlace a una URL externa. El atributo `href` especifica la dirección 
+                    web a la que se debe dirigir el enlace.
+
+2. `<a href="mailto:">`: Crea un enlace que, al hacer clic en él, abre el cliente de correo 
+                        electrónico del usuario con la dirección de correo especificada en el 
+                        atributo `href`. Se utiliza para facilitar el envío de correos electrónicos.
+
+3. `<a name="name">`: Define un punto de anclaje en la página, que puede ser enlazado utilizando 
+                    la etiqueta `<a>` con un atributo `href` que tenga el valor `#nombre`. 
+                    Este tipo de anclaje se utiliza para enlazar dentro de la misma página.
+
+4. `<a href="#name">`: Crea un enlace que dirige al usuario a un punto específico dentro de 
+                        la misma página utilizando un punto de anclaje definido por la etiqueta `<a name="name">`.
+                        Al hacer clic en este enlace, la página se desplazará automáticamente a la ubicación 
+                        del punto de anclaje especificado.
+
+
+
+
+
+<!--IMAGENES-->
+
+1. `<img />`: Inserta una imagen en la página web. El atributo `src` especifica la ruta de la imagen, 
+            `alt` proporciona un texto alternativo para la accesibilidad, `width` y `height` determinan
+            el ancho y alto de la imagen respectivamente.
+
+2. `<map>`: Define un mapa de imagen que se utiliza junto con la etiqueta `<area>` para crear áreas 
+            sensibles en una imagen, como enlaces o áreas activas. El atributo `name` se utiliza 
+            para identificar el mapa de imagen.
+
+3. `<area />`: Define un área sensible en una imagen para ser utilizada con la etiqueta `<map>`.
+                El atributo `shape` especifica la forma del área (rectangular, circular o poligonal), 
+                `coords` define las coordenadas del área y `href` establece la URL a la que se dirige 
+                el enlace cuando se hace clic en el área sensible.
+
+
+
+
+                
+<!--MARCADO DE TEXTO-->
+
+1. `<strong>`: Define un texto importante o destacado, usualmente se muestra en negrita por defecto.
+2. `<em>`: Define un texto enfatizado o con énfasis, usualmente se muestra en cursiva por defecto.
+3. `<blockquote>`: Define una sección de texto citado que normalmente se muestra con un margen izquierdo.
+4. `<q>`: Define una cita corta dentro de un texto. A menudo se muestra con comillas.
+5. `<abbr>`: Define una abreviatura o acrónimo, y opcionalmente proporciona una expansión para su significado 
+            completo.
+6. `<acronym>`: (Obsoleto en HTML5) Similar a `<abbr>`, define un acrónimo, pero se recomienda usar `<abbr>` 
+                en su lugar.
+7. `<address>`: Define información de contacto del autor o del propietario de un documento.
+8. `<pre>`: Define un bloque de texto preformateado, que mantiene el espaciado y saltos de línea tal como 
+            están en el código HTML.
+9. `<dfn>`: Define el término de una definición.
+10. `<code>`: Define un fragmento de código de computadora.
+11. `<cite>`: Define el título de una obra (libro, artículo, etc.) a la que se hace referencia en el texto.
+12. `<del>`: Define texto que ha sido eliminado o que ya no es válido.
+13. `<ins>`: Define texto que ha sido insertado o añadido recientemente.
+14. `<sub>`: Define texto subíndice, que se muestra ligeramente por debajo del texto normal.
+15. `<sup>`: Define texto superíndice, que se muestra ligeramente por encima del texto normal.
+16. `<bdo>`: Define la dirección de texto (de izquierda a derecha o de derecha a izquierda) para el texto 
+            que contiene.
